@@ -1,0 +1,183 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "KHR_materials_ior",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 178476,
+            "type": "VEC3",
+            "max": [
+                0.03954700008034706,
+                0.12090100347995758,
+                0.013160999864339829
+            ],
+            "min": [
+                -0.04270799830555916,
+                0.0016710000345483423,
+                -0.013767999596893788
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 178476,
+            "type": "VEC3",
+            "max": [
+                0.9999939203262329,
+                0.9999322891235352,
+                1.0
+            ],
+            "min": [
+                -0.9998679161071777,
+                -0.999962568283081,
+                -0.9999990463256836
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 178476,
+            "type": "VEC2",
+            "max": [
+                0.9704340100288391,
+                0.9044439792633057
+            ],
+            "min": [
+                0.029870999976992608,
+                0.1523759961128235
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 178476,
+            "type": "SCALAR",
+            "max": [
+                178475
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 6425136,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2141712,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2141712,
+            "byteLength": 2141712,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4283424,
+            "byteLength": 1427808,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5711232,
+            "byteLength": 713904,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "extensions": {
+                "KHR_materials_ior": {
+                    "ior": 1.0
+                }
+            }
+        },
+        {
+            "name": "chips-bag-002",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "extensions": {
+                "KHR_materials_ior": {
+                    "ior": 1.0
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "bag",
+            "primitives": [
+                {
+                    "extensions": {
+                        "FB_ngon_encoding": {}
+                    },
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "chips-bag.obj",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "bag",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
